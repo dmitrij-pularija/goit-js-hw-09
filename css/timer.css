@@ -1,0 +1,54 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  margin-bottom: 20px;
+}
+.field {
+  display: block;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #c0bcbca6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.value {
+  display: block;
+  padding: 0 5px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1;
+  color: #5854549e;
+  font-stretch: extra-condensed;
+}
+.label {
+  display: block;
+  padding: 5px;
+}
+.box {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #5854549e;
+  text-align: center;
+  margin-right: 15px;
+}
+.textbox {
+  font-weight: 400;
+  font-size: 32px;
+  color: red;
+}

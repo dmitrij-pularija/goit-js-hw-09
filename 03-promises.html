@@ -4,27 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promise generator</title>
-    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <style>
+      form {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        width: 70px;
+        text-align: right;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    </style>
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <p>
+      <a href="index.html">Go back</a><span>Promise generator</span
+      ><a href="01-color-switcher.html">First task</a>
+    </p>
 
     <form class="form">
       <label>
         First delay (ms)
-        <input type="number" name="delay" required />
+        <input type="number" name="delay" required value="5000" step="1000"/>
       </label>
       <label>
         Delay step (ms)
-        <input type="number" name="step" required />
+        <input type="number" name="step" required value="500" step="100"/>
       </label>
       <label>
         Amount
-        <input type="number" name="amount" required />
+        <input type="number" name="amount" required value="5"/>
       </label>
       <button type="submit">Create promises</button>
     </form>
 
-    <script src="js/03-promises.js" type="module"></script>
+    <script src="./js/03-promises.js" type="module"></script>
   </body>
 </html>
