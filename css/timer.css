@@ -37,16 +37,21 @@
 .calendar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 input {
-  max-width: 280px;
+  display: flex;
+  width: 280px;
+  height: 50px;
   font-weight: 400;
   font-size: 32px;
   color: #5854549e;
   text-align: center;
-  margin-right: 15px;
+  border-radius: 5px;
+  border-style: none;
 }
+
 .textbox {
   font-weight: 400;
   font-size: 32px;

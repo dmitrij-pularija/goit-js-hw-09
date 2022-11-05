@@ -32,6 +32,12 @@ p {
   justify-content: space-around;
   margin: 0 auto;
 }
+
 button {
   padding: 15px;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: rgba(232, 229, 229, 0.500);
+  border-color: #c0bcbca6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
